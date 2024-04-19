@@ -1,0 +1,49 @@
+Actividad 2, Unidad 5:
+A partir del siguiente problema realiza su representación en pseudocódigo.
+Se desean convertir las calificaciones alfabéticas A, B, C, D, E, y F a
+calificaciones numéricas 4, 5, 6, 7, 8 y 9 respectivamente. Diseña el algoritmo 
+para poder realizar la conversión.
+
+INCIO 
+//ALGORITMO CALIFICACIONES
+
+//designacion de variables
+
+CHAR Calificacion 
+
+Pedir calificacion al usuario 
+SI <Calificacion = A> entonces  //se pide la calificacion alfabetica al usuario para hacer su conversion numerica
+  <A = 4> //se asigna el valor numerico a la variable "Calificacion"
+  Imprime Calificacion //se imprime el nuevo valor de "Calificacion", se repite la condicion para todas las variables, 
+                        //en caso de que una no se cumpla, se revisa si la siguiente condicion se cumple hasta que sea valido
+
+SI_NO
+  <Calificacion = B> entonces
+  <B = 5>
+  Imprime Calificacion
+
+  SI_NO
+    <Calificacion = C> entonces
+    <C = 6>
+    Imprime Calificacion
+
+    SI_NO
+      <Calificacion = D> entonces
+      <D = 7>
+      Imprime Calificacion
+
+      SI_NO
+        <Calificacion = E> entonces
+        <E = 8>
+        Imprime Calificacion
+
+          SI_NO
+            <Calificacion = F> entonces
+             <F = 9>
+            Imprime Calificacion
+
+            SI_NO
+            <Imprime "Ingrese una calificacion valida">
+            FIN_SI
+
+FIN
